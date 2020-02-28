@@ -1,0 +1,14 @@
+{
+  "name": "productivity_chaincode",
+  "version": "1.0.0",
+  "description": "productivity chaincode",
+  "main": "index.js",
+  "scripts": {
+    "test": "start "
+  },
+  "author": "Manjunath V A",
+  "license": "ISC",
+  "dependencies": {
+    "fabric-contract-api": "^1.4.0"
+  }
+}

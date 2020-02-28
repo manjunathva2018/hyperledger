@@ -1,0 +1,24 @@
+/api/fabcar/create
+Method:POST
+request body:
+{
+    "carNumber":string,
+    "make":string,
+    "model":string,
+    "color":string,
+    "owner":string
+}
+
+/api/fabcar/updateCarOwner
+Method:PUT
+request body:
+{
+"carNumber":string,
+"owner":string
+}
+
+/api/fabcar/queryAllCars
+Method:GET
+
+/api/fabcar/queryCar/:carNumber
+Method:GET
